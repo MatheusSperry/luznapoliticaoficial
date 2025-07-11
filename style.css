@@ -1,0 +1,25 @@
+* { margin:0; padding:0; box-sizing:border-box; }
+
+@font-face {
+  font-family: 'Aonic';
+  src: url('Aonic-Medium.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  --header-height: 100px;
+  --dark: #000;
+  --light: #fff;
+  --cta-bg: #fff;
+  --cta-color: #000;
+}
+
+body {
+  font-family: 'Aonic', sans-serif;
+  background: var(--dark);
+  color: var(--light);
+  line-height: 1.6;
+}
+
+/* restante do CSS permanece igual */
